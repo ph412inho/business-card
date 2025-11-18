@@ -1,0 +1,87 @@
+:root {
+  /* Gradient backgrounds */
+  --gradient-main: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-subtle: linear-gradient(to right, #f5f7fa 0%, #c3cfe2 100%);
+  --gradient-bold: linear-gradient(45deg, #fa709a 0%, #fee140 100%);
+  
+  /* Solid colors (for text/accents) */
+  --color-text: #1e293b;
+  --color-text-light: #64748b;
+  --color-bg: #ffffff;
+}
+
+img {
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 20px;
+    background-color: #f0f0f0;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+}
+
+h3 {
+    font-family: "roboto";
+    font-weight: 800;
+    font-size: 24px; 
+}
+
+h4 {
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 14px;
+}
+
+p {
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 16px;
+    color: #d8cefe;
+}
+
+.avatar {
+    width: 200px;
+}
+
+.card {
+    width: 548px;
+    margin: 0 auto;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #2b2839;
+    border-bottom: 8px solid #d8cefe;
+    border-radius: 10px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
+}       
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
